@@ -1,0 +1,201 @@
+header {
+  background-color: white;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header img {
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgb(130, 175, 226);
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+article {
+  background-color: #3065ac;
+  border: 1px solid #cccccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+
+
+td {
+  padding: 8px;
+}
+
+tr.elite {
+  background-color: #ffcccc;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #99ccff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Ajustes específicos para que formularios, campos y botones se vean como en la imagen */
+
+form label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form select {
+  width: 200px;
+  padding: 4px;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+}
+
+form button {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+  background-color: #e6e6e6;
+  border: 1px solid black;
+  color: black;
+  border-radius: 0;
+  cursor: pointer;
+}
+.grupo-radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.grupo-radio label,
+.grupo-radio input[type="radio"],
+.grupo-radio button {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.grupo-radio button {
+  background-color: #e6e6e6;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 0;
+  cursor: pointer;
+}
+/* Ajustes para el combo y los radios de Consulta Inscriptos */
+
+#comboConsulta {
+  width: 200px;
+  padding: 4px;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+
+.orden-radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.orden-radio label {
+  margin-right: 10px;
+}
+
+.inscriptos-titulo {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.inscriptos {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+}
